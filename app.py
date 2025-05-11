@@ -15,7 +15,7 @@ def prever_diagnostico_cao():
     print(f"Doença identificada: {nome_doenca}")
 
     return jsonify({
-        'prever_Diagnostico': previsao,
+        'prever_diagnostico': previsao,
         'nome_da_doenca': nome_doenca
     })
 
@@ -28,7 +28,7 @@ def prever_diagnostico_calopsita():
     print(f"Doença identificada: {nome_doenca}")
 
     return jsonify({
-        'prever_Diagnostico': previsao,
+        'prever_diagnostico': previsao,
         'nome_da_doenca': nome_doenca
     })
 
