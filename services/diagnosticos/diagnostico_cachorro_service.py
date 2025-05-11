@@ -25,6 +25,7 @@ class DiagnosticoCachorroService:
         y = dados['Diagnostico']
 
         self.model = LinearRegression().fit(x, y)
+        
 
     def prever(self, data: dict):
         features = np.array([[
